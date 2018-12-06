@@ -15,6 +15,7 @@ import ssoAuth from 'ovh-angular-sso-auth';
 import OvhHttp from 'ovh-angular-http';
 
 import core from '@ovh-ux/manager-core';
+import hello from '@ovh-ux/manager-hello';
 import overthebox from '@ovh-ux/manager-overthebox';
 import freefax from '@ovh-ux/manager-freefax';
 import sms from '@ovh-ux/manager-sms';
@@ -50,6 +51,7 @@ angular
     ngMessages,
     ngSanitize,
     'oui',
+    hello,
     overthebox,
     'ovh-angular-checkbox-table',
     'ovh-angular-otrs',
