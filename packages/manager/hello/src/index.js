@@ -3,6 +3,8 @@ import angular from 'angular';
 import '@ovh-ux/manager-core';
 import '@uirouter/angularjs';
 
+import template from './hello.html';
+
 const moduleName = 'ovhManagerHello';
 
 angular
@@ -13,7 +15,8 @@ angular
   .config(/* @ngInject */($stateProvider) => {
     $stateProvider.state('hello', {
       url: '/hello',
-      template: 'Hello',
+      template,
+      translations: ['.'],
     });
   });
 
